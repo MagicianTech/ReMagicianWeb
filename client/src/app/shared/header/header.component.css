@@ -1,0 +1,65 @@
+body {
+    margin: 0; 
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+}
+.header {
+    position: relative;
+    top: -4.4rem;
+    background-color: #fbfbfb;
+}
+.navbar a, i{
+    position: relative;
+    left: 59rem;
+    top: -0.6rem;
+    color: #121212;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 2.7rem;
+    font-weight: bold;
+    
+}
+.navbar a{
+    display: inline-flex; /* o inline-block también va bien */
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.navbar hr{
+    width: 100%;
+    
+}
+
+.navbar img {
+    margin: 0;
+    position: relative;
+    left: 1.6rem;
+    top: 3.5rem;
+    width: 4.2rem;
+}
+
+hr {
+    height: 0.1rem;
+    border: none;
+    background-color: #121212;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    left: 3rem;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #121212;
+    transition: width 0.3s ease;
+  }
+  
+  a:hover::after {
+    width: 80%;
+  }

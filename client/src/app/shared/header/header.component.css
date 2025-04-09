@@ -1,25 +1,18 @@
-body {
-    margin: 0; 
-    font-family: 'Lato', sans-serif;
-    background-color: #fbfbfb;
-}
 .header {
     position: relative;
     top: -4.4rem;
     background-color: #fbfbfb;
+    width: 100%;
 }
 .navbar a, i{
     position: relative;
-    left: 59rem;
-    top: -0.6rem;
     color: #121212;
     font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
-    padding-left: 2.7rem;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
+
 .navbar a{
     display: inline-flex; /* o inline-block también va bien */
     align-items: center;
